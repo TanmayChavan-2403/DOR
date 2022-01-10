@@ -1,0 +1,88 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+li{
+	list-style: none;
+}
+
+#navbar{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+}
+
+#logo{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo img{
+	width: 100%;
+	height: 80%;
+	object-fit: contain;
+}
+
+#nav-links{
+	width: 50%;
+	height: 100%;
+}
+
+
+#unorderdlist{
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav-link{
+	height: 100%;
+	display: flex;
+	padding: 25px;
+	color: #5A5A5A;
+	flex-wrap: wrap;
+	font-weight: 600;
+	width: fit-content;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+/* Account container styling started*/
+
+#account{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 500;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#account button{
+	width: 150px;
+	color: #828282;
+	outline: none;
+	padding: 10px 25px;
+	height: fit-content;
+	border-radius: 5.85px;
+	border: 0.975px solid #828282;
+}
+
+#account button:nth-child(2){
+	color: white;
+	background: #333333;
+}
+
+/* Account container styling ended*/
