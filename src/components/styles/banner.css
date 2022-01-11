@@ -12,6 +12,7 @@ img{
 #banner{
 	width: 100%;
 	height: 100vh;
+	position: relative;
 	background: linear-gradient(7.73deg, #FFD5A4 31.08%, #FFF1E0 86.51%, #FFEBD4 103.89%, rgba(255, 206, 149, 0) 115.56%);
 }
 
@@ -41,6 +42,7 @@ img{
 
 #crowd img{
 	left: -8%;
+	transition: .5s;
 	object-fit: contain;
 	position: absolute;
 }
@@ -54,3 +56,84 @@ h1{
 	position: absolute;
 	transform: translate(0%, -100%);
 }
+
+
+#banner h1:nth-child(4){
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries start */
+
+@media screen and (max-width: 1000px){
+	#amoeba{
+		display: none;
+	}
+
+	h1{
+		left: 40%;
+		top: 50%;
+		font-size: 7vw;
+	}
+
+	#crowd img{
+		left: 0%;
+	}
+}
+
+
+@media screen and (max-width: 700px){
+	#banner{
+		height: 75vh;
+	}
+
+	#headline{
+		font-size: 10vw;
+	}
+
+	#banner h1:nth-child(4){
+		display: block;
+	}
+
+	#banner h1:nth-child(3){
+		display: none;
+	}
+
+	h1{
+		font-size: 8vw;
+		left: 50%;
+		top: 20%;
+		text-align: center;
+		transform: translate(-50%, 20%);
+	}
+}
+
+
+@media screen and (max-width: 500px){
+	#headline{
+		font-size: 15vw;
+	}	
+}
+
+/* Media Queries end */

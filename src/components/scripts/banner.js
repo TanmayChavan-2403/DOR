@@ -12,6 +12,7 @@ function Banner(props){
 					<img src='./images/crowd.svg'></img>
 				</div>
 				<h1>TheDorProject.</h1>
+				<h1><span id='headline'>TheDor</span><br/>Project.</h1>
 			</div>
 		</React.Fragment>
 	)
