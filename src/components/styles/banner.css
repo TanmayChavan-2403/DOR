@@ -47,7 +47,7 @@ img{
 	position: absolute;
 }
 
-h1{
+#banner h1{
 	left: 50%;
 	top: 50%;
 	font-weight: 900;
@@ -91,7 +91,7 @@ h1{
 		display: none;
 	}
 
-	h1{
+	#banner h1{
 		left: 40%;
 		top: 50%;
 		font-size: 7vw;
@@ -120,7 +120,7 @@ h1{
 		display: none;
 	}
 
-	h1{
+	#banner h1{
 		font-size: 8vw;
 		left: 50%;
 		top: 20%;

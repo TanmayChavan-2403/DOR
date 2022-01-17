@@ -55,7 +55,7 @@ function Navbar(props){
 							<a href='#'>Process</a>
 						</li>
 						<li className='nav-link'>
-							<a href='#'>User Safety</a>
+							<a href='#' id='user-safety'>User Safety</a>
 						</li>
 					</ul>
 				</div>

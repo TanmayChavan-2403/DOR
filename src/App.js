@@ -3,6 +3,9 @@ import React from 'react';
 import Navbar from './components/scripts/navbar.js';
 import Banner from './components/scripts/banner.js';
 import VTW from './components/scripts/vtw.js'
+import Features from './components/scripts/features.js';
+
+// import ChatUI from './components/scripts/chatUI.js';
 
 function App() {
   return (
@@ -10,6 +13,8 @@ function App() {
       <Navbar />
       <Banner />
       <VTW />
+      <Features />
+      
     </React.Fragment>
   );
 }
