@@ -5,16 +5,16 @@ import Banner from './components/scripts/banner.js';
 import VTW from './components/scripts/vtw.js'
 import Features from './components/scripts/features.js';
 
-// import ChatUI from './components/scripts/chatUI.js';
+import ChatUI from './components/scripts/chatUI.js';
 
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
+      {/*<Navbar />
       <Banner />
       <VTW />
-      <Features />
-      
+      <Features />*/}
+      <ChatUI />      
     </React.Fragment>
   );
 }

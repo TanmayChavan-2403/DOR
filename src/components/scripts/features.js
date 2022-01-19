@@ -28,7 +28,7 @@ function Features(props){
 			if (currState == 0){
 				direction = 'forward';
 			}
-		}, 4000)
+		}, 8000)
 	}
 
 	// Setting subscription for carousel
