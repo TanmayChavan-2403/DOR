@@ -7,6 +7,7 @@ import Features from './components/scripts/features.js';
 
 import ChatUI from './components/scripts/chatUI.js';
 
+
 function App() {
   return (
     <React.Fragment>
@@ -20,3 +21,15 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+// Points
+
+// Get started
+// listener or venter
+// 
